@@ -1,0 +1,1111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JDG2BTVPPF"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JDG2BTVPPF');
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MegawattWeekly | Powering AI Data Centers</title>
+    <meta name="description"
+        content="Get the free weekly email with summaries of the most interesting stories in Energy, Utilities, and AI Data Center Infrastructure.">
+
+    <!-- Consolidated Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap"
+        rel="stylesheet">
+
+    <style>
+        /* Color Palette & Tokens (Power / Energy Theme) */
+        :root {
+            --bg-color: #080b11;
+            --surface-low: #0f1420;
+            --surface-high: #1c2336;
+            --surface-lowest: #04060b;
+            --on-surface: #f3f4f6;
+            --on-surface-variant: #9ca3af;
+            --primary: #d2ff26; /* Neon Volt Yellow-Green */
+            --primary-container: #d2ff26;
+            --on-primary-container: #080b11;
+            --secondary: #38bdf8; /* Cyber Cyan */
+            --tertiary: #fb7185; /* Soft Coral */
+            --tech-green: #34d399; /* Emerald */
+            --border-subtle: #1f2937;
+            --text-muted: #6b7280;
+            --glow-color: rgba(210, 255, 38, 0.15);
+        }
+
+        /* Base Reset */
+        body {
+            background-color: var(--bg-color);
+            color: var(--on-surface);
+            font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-rendering: optimizeLegibility;
+        }
+
+        /* Material Icons styling */
+        .material-symbols-outlined {
+            font-family: 'Material Symbols Outlined';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px;
+            line-height: 1;
+            letter-spacing: normal;
+            text-transform: none;
+            display: inline-block;
+            white-space: nowrap;
+            word-wrap: normal;
+            direction: ltr;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-rendering: optimizeLegibility;
+            font-feature-settings: 'liga';
+            vertical-align: middle;
+        }
+
+        /* Typography System */
+        .display-hero {
+            font-size: 34px;
+            line-height: 42px;
+            letter-spacing: -0.02em;
+            font-weight: 800;
+        }
+
+        @media (min-width: 768px) {
+            .display-hero {
+                font-size: 48px;
+                line-height: 56px;
+            }
+        }
+
+        .headline-section {
+            font-size: 22px;
+            line-height: 30px;
+            letter-spacing: -0.01em;
+            font-weight: 700;
+        }
+
+        .article-title {
+            font-size: 19px;
+            line-height: 26px;
+            font-weight: 600;
+        }
+
+        .body-summary {
+            font-size: 15px;
+            line-height: 22px;
+            font-weight: 400;
+        }
+
+        .metadata-label {
+            font-size: 12px;
+            line-height: 16px;
+            letter-spacing: 0.05em;
+            font-weight: 700;
+        }
+
+        /* Layout Structure */
+        .container {
+            max-width: 1100px;
+            width: 100%;
+            margin: 0 auto;
+            padding-left: 16px;
+            padding-right: 16px;
+            box-sizing: border-box;
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+        }
+
+        /* Sticky Header (with modern glassmorphism) */
+        .site-header {
+            background-color: var(--bg-color);
+            width: 100%;
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            border-bottom: 1px solid var(--border-subtle);
+            transition: background-color 0.3s ease, backdrop-filter 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .site-header.scrolled {
+            background-color: rgba(8, 11, 17, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+        }
+
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 72px;
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: -0.02em;
+            color: var(--on-surface);
+            text-decoration: none;
+            cursor: pointer;
+            transition: opacity 0.2s ease, transform 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .logo span.bolt {
+            color: var(--primary);
+            text-shadow: 0 0 10px rgba(210, 255, 38, 0.5);
+        }
+
+        @media (min-width: 768px) {
+            .logo {
+                font-size: 26px;
+            }
+        }
+
+        .logo:active {
+            opacity: 0.8;
+            transform: scale(0.98);
+        }
+
+        .nav-menu {
+            display: none;
+            align-items: center;
+            gap: 24px;
+        }
+
+        @media (min-width: 768px) {
+            .nav-menu {
+                display: flex;
+            }
+        }
+
+        .nav-link {
+            color: var(--on-surface-variant);
+            text-decoration: none;
+            transition: color 0.2s ease;
+            cursor: pointer;
+        }
+
+        .nav-link:hover {
+            color: var(--primary);
+        }
+
+        .nav-link:active {
+            opacity: 0.8;
+        }
+
+        .nav-link.active {
+            border-bottom: 2px solid var(--primary);
+            padding-bottom: 4px;
+            color: var(--primary);
+            font-weight: 700;
+        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        /* Buttons (Premium styling with scale effect and glows) */
+        .btn {
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            font-family: 'Outfit', sans-serif;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
+            font-weight: 600;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .btn:active {
+            transform: translateY(1px);
+        }
+
+        .btn-primary {
+            background-color: var(--primary);
+            color: var(--on-primary-container);
+            box-shadow: 0 4px 14px rgba(210, 255, 38, 0.25);
+        }
+
+        .btn-primary:hover {
+            background-color: #e2ff40;
+            box-shadow: 0 6px 20px rgba(210, 255, 38, 0.4);
+        }
+
+        .header-btn {
+            padding: 10px 24px;
+            font-size: 15px;
+        }
+
+        /* Main Wrapper */
+        .main-content {
+            padding-bottom: 48px;
+        }
+
+        @media (min-width: 768px) {
+            .main-content {
+                padding-bottom: 96px;
+            }
+        }
+
+        /* Hero Section */
+        .hero-section {
+            padding-top: 48px;
+            padding-bottom: 48px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        @media (min-width: 768px) {
+            .hero-section {
+                padding-top: 80px;
+                padding-bottom: 80px;
+            }
+        }
+
+        .hero-title {
+            max-width: 52rem;
+            margin-top: 0;
+            margin-bottom: 16px;
+            color: var(--on-surface);
+        }
+
+        .hero-title span {
+            color: var(--primary);
+            text-shadow: 0 0 20px rgba(210, 255, 38, 0.15);
+        }
+
+        .hero-subtitle {
+            max-width: 44rem;
+            margin-top: 0;
+            margin-bottom: 32px;
+            color: var(--on-surface-variant);
+            font-size: 17px;
+            line-height: 26px;
+        }
+
+        /* Interactive Subscription Form */
+        .subscription-container {
+            width: 100%;
+            max-width: 480px;
+            margin: 0 auto;
+        }
+
+        .subscription-form {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            width: 100%;
+        }
+
+        @media (min-width: 640px) {
+            .subscription-form {
+                flex-direction: row;
+                background-color: var(--surface-low);
+                border: 1px solid var(--border-subtle);
+                padding: 6px;
+                border-radius: 12px;
+                transition: border-color 0.2s ease, box-shadow 0.2s ease;
+            }
+            .subscription-form:focus-within {
+                border-color: var(--primary);
+                box-shadow: 0 0 15px rgba(210, 255, 38, 0.1);
+            }
+        }
+
+        .email-input {
+            flex-grow: 1;
+            background-color: var(--surface-low);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            color: var(--on-surface);
+            padding: 14px 16px;
+            font-size: 15px;
+            font-family: 'Outfit', sans-serif;
+            outline: none;
+            transition: all 0.2s ease;
+            box-sizing: border-box;
+        }
+
+        @media (min-width: 640px) {
+            .email-input {
+                border: none;
+                background: transparent;
+                padding: 12px 14px;
+            }
+        }
+
+        .email-input:focus {
+            border-color: var(--primary);
+        }
+
+        .submit-btn {
+            background-color: var(--primary);
+            color: var(--on-primary-container);
+            padding: 14px 28px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            box-shadow: 0 4px 12px rgba(210, 255, 38, 0.2);
+        }
+
+        @media (min-width: 640px) {
+            .submit-btn {
+                padding: 12px 24px;
+            }
+        }
+
+        .submit-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .hero-badge {
+            margin-top: 20px;
+            color: var(--text-muted);
+            margin-bottom: 0;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .hero-badge span {
+            color: var(--primary);
+        }
+
+        .status-message {
+            padding: 16px;
+            border-radius: 8px;
+            font-size: 15px;
+            text-align: center;
+            width: 100%;
+            margin-top: 12px;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
+        }
+
+        .status-message.success {
+            display: flex;
+            background-color: rgba(52, 211, 153, 0.12);
+            color: var(--tech-green);
+            border: 1px solid rgba(52, 211, 153, 0.3);
+        }
+
+        .status-message.error {
+            display: flex;
+            background-color: rgba(239, 68, 68, 0.12);
+            color: #f87171;
+            border: 1px solid rgba(239, 68, 68, 0.3);
+        }
+
+        /* Section Divider */
+        .section-divider {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+
+        .section-title {
+            margin: 0;
+            color: var(--on-surface);
+            white-space: nowrap;
+        }
+
+        .divider-line {
+            height: 1px;
+            width: 100%;
+            background-color: var(--border-subtle);
+        }
+
+        /* Grid */
+        .stories-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 28px;
+        }
+
+        @media (min-width: 768px) {
+            .stories-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .stories-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        /* Article Cards (Glass/Slate aesthetic with hover glows) */
+        .story-card {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            text-decoration: none;
+            box-sizing: border-box;
+            background-color: var(--surface-low);
+            border: 1px solid var(--border-subtle);
+            padding: 24px;
+            border-radius: 12px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .story-card:hover {
+            transform: translateY(-4px);
+            border-color: rgba(210, 255, 38, 0.3);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3), 0 8px 10px -6px rgba(210, 255, 38, 0.05);
+        }
+
+        .story-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+        }
+
+        .story-category {
+            padding: 3px 10px;
+            background-color: var(--surface-high);
+            text-transform: uppercase;
+            border-radius: 6px;
+            font-size: 11px;
+            font-weight: 700;
+        }
+
+        .story-category-grid {
+            border-left: 2px solid var(--primary);
+            color: var(--primary);
+        }
+
+        .story-category-nuclear {
+            border-left: 2px solid var(--secondary);
+            color: var(--secondary);
+        }
+
+        .story-category-onsite {
+            border-left: 2px solid var(--tertiary);
+            color: var(--tertiary);
+        }
+
+        .story-category-utilities {
+            border-left: 2px solid var(--tech-green);
+            color: var(--tech-green);
+        }
+
+        .story-category-policy {
+            border-left: 2px solid #fb7185;
+            color: #fb7185;
+        }
+
+        .story-category-market {
+            border-left: 2px solid #fbbf24;
+            color: #fbbf24;
+        }
+
+        .story-category-clean {
+            border-left: 2px solid #34d399;
+            color: #34d399;
+        }
+
+        .story-meta {
+            color: var(--text-muted);
+            font-size: 12px;
+        }
+
+        .story-title {
+            margin: 0;
+            color: var(--on-surface);
+            transition: color 0.2s ease;
+        }
+
+        .story-title a {
+            color: inherit;
+            text-decoration: none;
+            outline: none;
+        }
+
+        .story-card:hover .story-title {
+            color: var(--primary);
+        }
+
+        .story-summary {
+            margin: 0;
+            color: var(--on-surface-variant);
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            font-size: 14px;
+            line-height: 22px;
+        }
+
+        .story-link {
+            color: var(--secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            font-weight: 700;
+            margin-top: auto;
+            transition: color 0.2s ease;
+        }
+
+        .story-link:hover {
+            color: var(--primary);
+        }
+
+        .material-icon-inline {
+            font-size: 14px;
+            vertical-align: middle;
+        }
+
+        /* Featured Card */
+        .featured-card {
+            background-color: var(--surface-low);
+            border: 1px solid var(--border-subtle);
+            padding: 32px;
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            align-items: center;
+            box-sizing: border-box;
+            border-radius: 16px;
+            grid-column: span 1;
+            transition: all 0.3s ease;
+        }
+
+        .featured-card:hover {
+            border-color: rgba(56, 189, 248, 0.3);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+        }
+
+        @media (min-width: 768px) {
+            .featured-card {
+                grid-column: span 2;
+                flex-direction: row;
+            }
+        }
+
+        .featured-content {
+            flex: 1;
+        }
+
+        .featured-badge {
+            background-color: rgba(56, 189, 248, 0.1);
+            color: var(--secondary);
+            padding: 4px 12px;
+            border-radius: 6px;
+            margin-bottom: 16px;
+            display: inline-block;
+            font-weight: 700;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .featured-title {
+            margin-top: 0;
+            margin-bottom: 12px;
+            color: var(--on-surface);
+            font-size: 24px;
+            line-height: 32px;
+        }
+
+        .featured-summary {
+            margin-top: 0;
+            margin-bottom: 24px;
+            color: var(--on-surface-variant);
+            font-size: 15px;
+            line-height: 24px;
+        }
+
+        .btn-outline {
+            border: 1px solid var(--primary);
+            color: var(--primary);
+            background: transparent;
+            padding: 10px 28px;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 8px;
+        }
+
+        .btn-outline:hover {
+            background-color: rgba(210, 255, 38, 0.08);
+            transform: translateY(-2px);
+        }
+
+        .featured-image-wrapper {
+            width: 100%;
+            height: 220px;
+            position: relative;
+            overflow: hidden;
+            border-radius: 12px;
+            background-color: var(--surface-high);
+            border: 1px solid var(--border-subtle);
+        }
+
+        @media (min-width: 768px) {
+            .featured-image-wrapper {
+                width: 260px;
+                height: 220px;
+            }
+        }
+
+        .featured-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.6;
+        }
+
+        .featured-image-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, var(--surface-low), transparent);
+        }
+
+        /* Footer */
+        .site-footer {
+            background-color: var(--surface-lowest);
+            border-top: 1px solid var(--border-subtle);
+            padding-top: 48px;
+            padding-bottom: 48px;
+            width: 100%;
+        }
+
+        .site-footer .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            gap: 24px;
+        }
+
+        @media (min-width: 768px) {
+            .site-footer .container {
+                flex-direction: row;
+                gap: 0;
+            }
+        }
+
+        .footer-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+
+        @media (min-width: 768px) {
+            .footer-info {
+                align-items: flex-start;
+            }
+        }
+
+        .footer-logo {
+            color: var(--on-surface);
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .footer-logo span {
+            color: var(--primary);
+        }
+
+        .footer-copyright {
+            color: var(--text-muted);
+            margin: 0;
+            font-size: 13px;
+        }
+
+        .footer-nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 24px;
+        }
+
+        .footer-link {
+            color: var(--on-surface-variant);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .footer-link:hover {
+            color: var(--primary);
+        }
+
+        .footer-icons {
+            display: flex;
+            gap: 16px;
+        }
+
+        .footer-icon {
+            color: var(--on-surface-variant);
+            cursor: pointer;
+            transition: color 0.2s ease;
+        }
+
+        .footer-icon:hover {
+            color: var(--primary);
+        }
+
+        /* Feed Subscription Footer styles */
+        .feed-subscription-footer {
+            border-top: 1px solid var(--border-subtle);
+            padding-top: 48px;
+            margin-top: 64px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .feed-subscription-text {
+            color: var(--on-surface-variant);
+            max-width: 600px;
+            margin: 0 auto;
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        .feed-subscription-form-wrapper {
+            margin: 0;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Top AppBar Navigation -->
+    <header class="site-header" id="site-header">
+        <div class="container">
+            <div class="header-left">
+                <a class="logo" href="#"><span class="material-symbols-outlined bolt">bolt</span>MegawattWeekly</a>
+                <nav class="nav-menu">
+                    <a class="nav-link article-title active" href="#">Latest</a>
+                    <a class="nav-link article-title" href="https://buttondown.com/megawattweekly/archive/" target="_blank" rel="noopener">Archives</a>
+                </nav>
+            </div>
+            <div class="header-actions">
+                <button class="btn btn-primary header-btn article-title" id="header-subscribe-btn">Subscribe</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container main-content">
+        <!-- Hero Call to Action -->
+        <section class="hero-section">
+            <h1 class="display-hero hero-title">Powering the <span>AI Infrastructure Boom</span></h1>
+            <p class="body-summary hero-subtitle">Get the free weekly briefing on the power grid constraints, utility strategies, and nuclear co-location deals driving the AI data center expansion.</p>
+
+            <div class="subscription-container">
+                <form class="subscription-form" id="subscribe-form">
+                    <input class="email-input" id="email-input" type="email" placeholder="Enter your work email" required>
+                    <button class="btn submit-btn" id="submit-btn" type="submit">Subscribe</button>
+                </form>
+                <div class="status-message" id="status-message"></div>
+            </div>
+
+            <p class="metadata-label hero-badge">⚡ Trusted by Energy Developers &amp; Hyperscale Teams</p>
+        </section>
+
+        <!-- Section Title with Divider -->
+        <div class="section-divider">
+            <h2 class="headline-section section-title">Latest Briefings</h2>
+            <div class="divider-line"></div>
+        </div>
+
+        <!-- Stories Feed Grid Layout -->
+        <section id="daily-feed" class="stories-grid">
+            
+            <!-- Featured Card -->
+            <article class="featured-card">
+                <div class="featured-content">
+                    <span class="featured-badge">💡 Headline Analysis</span>
+                    <h3 class="featured-title"><a href="https://www.powergridbrief.com/pjm-virginia-data-center-backlog-7-years/" style="color: inherit; text-decoration: none;">PJM Substation Backlog Reaches Critical Impasse for Northern Virginia Data Centers</a></h3>
+                    <p class="featured-summary">Northern Virginia’s data center developers are facing connection delays of up to seven years as the PJM Interconnection queue grapples with an unprecedented volume of requests. Grid operators warn that the transmission infrastructure requires billions of dollars in upgrades to handle the projected 10-gigawatt surge from hyperscale AI facilities. The delays are forcing tech companies to search for alternative sites in secondary markets like Ohio and Indiana, where utility queues are shorter but local grid capacities are still limited.</p>
+                    <a class="btn btn-outline" href="https://www.powergridbrief.com/pjm-virginia-data-center-backlog-7-years/">Read Full Analysis</a>
+                </div>
+                <div class="featured-image-wrapper">
+                    <!-- Clean industrial power transformer SVG placeholder visual representation -->
+                    <svg viewBox="0 0 100 100" class="featured-image" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="100" height="100" fill="#0f172a"/>
+                        <circle cx="50" cy="50" r="30" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4 4"/>
+                        <circle cx="50" cy="50" r="15" fill="#1e293b" stroke="#d2ff26" stroke-width="2"/>
+                        <path d="M50 25 V75 M25 50 H75" stroke="#334155" stroke-width="2"/>
+                        <path d="M45 40 L55 50 L45 60 L55 70" stroke="#d2ff26" stroke-width="3" stroke-linecap="round"/>
+                    </svg>
+                    <div class="featured-image-overlay"></div>
+                </div>
+            </article>
+
+            <article class="story-card">
+                <div class="story-header">
+                    <span class="story-category story-category-nuclear metadata-label">⚛️ Nuclear Power</span>
+                    <span class="story-meta metadata-label">August 16, 2026 &bull; 2 min Read</span>
+                </div>
+                <h3 class="story-title article-title"><a href="https://www.utilitydive.com/news/constellation-ferc-microsoft-nuclear-data-center-co-location/">Constellation Energy Secures FERC Approval for Nuclear Co-Location at Three Mile Island</a></h3>
+                <p class="story-summary body-summary">The Federal Energy Regulatory Commission (FERC) has approved a landmark co-location agreement between Constellation Energy and Microsoft to supply 835 megawatts of clean energy directly from the restarted Three Mile Island Unit 1 reactor. This contract represents the first dedicated behind-the-meter nuclear project specifically built to power an adjacent AI data center campus. The decision sets a major legal precedent, overriding utility protests regarding transmission tariff exemptions and paving the way for other hyperscalers to pursue similar dedicated nuclear deals across the US.</p>
+                <a class="story-link metadata-label" href="https://www.utilitydive.com/news/constellation-ferc-microsoft-nuclear-data-center-co-location/">Read Source <span class="material-symbols-outlined material-icon-inline">arrow_forward</span></a>
+            </article>
+
+            <article class="story-card">
+                <div class="story-header">
+                    <span class="story-category story-category-onsite metadata-label">⚡ On-Site Generation</span>
+                    <span class="story-meta metadata-label">August 15, 2026 &bull; 2 min Read</span>
+                </div>
+                <h3 class="story-title article-title"><a href="https://www.datacenterdynamics.com/news/hyperscalers-natural-gas-microturbines-grid-constraints/">Hyperscalers Turn to On-Site Natural Gas Microturbines to Bypass Grid Constraints</a></h3>
+                <p class="story-summary body-summary">To meet the immediate energy needs of modern Blackwell and Rubin AI clusters, major tech companies are bypassing utility grid connections by deploying on-site natural gas microturbines. Companies like Google and AWS are partnering with energy developers to build private 100-megawatt gas generation systems directly adjacent to their data center campuses, utilizing localized pipelines. While this strategy offers rapid deployment, it draws criticism from environmental groups and complicates corporate carbon-neutrality pledges, highlighting the tension between rapid AI scaling and green energy goals.</p>
+                <a class="story-link metadata-label" href="https://www.datacenterdynamics.com/news/hyperscalers-natural-gas-microturbines-grid-constraints/">Read Source <span class="material-symbols-outlined material-icon-inline">arrow_forward</span></a>
+            </article>
+
+            <article class="story-card">
+                <div class="story-header">
+                    <span class="story-category story-category-utilities metadata-label">🔌 Utilities</span>
+                    <span class="story-meta metadata-label">August 14, 2026 &bull; 2 min Read</span>
+                </div>
+                <h3 class="story-title article-title"><a href="https://www.virginiabusiness.com/dominion-energy-gas-plants-data-center-demand/">Dominion Energy Warns AI Power Demand Will Require Two New Gas Plants in Virginia</a></h3>
+                <p class="story-summary body-summary">Dominion Energy has updated its long-term integrated resource plan, stating that the exponential rise in AI data center demand will necessitate the construction of two new natural gas-fired peaking plants in Virginia by 2029. The utility noted that while solar and battery storage capacity is expanding, fossil-fuel-powered generation remains essential to guarantee the 99.999% uptime required by hyperscale computing facilities. Regulatory bodies are reviewing the proposal amid intense debate over the state's transition to clean energy.</p>
+                <a class="story-link metadata-label" href="https://www.virginiabusiness.com/dominion-energy-gas-plants-data-center-demand/">Read Source <span class="material-symbols-outlined material-icon-inline">arrow_forward</span></a>
+            </article>
+
+            <article class="story-card">
+                <div class="story-header">
+                    <span class="story-category story-category-nuclear metadata-label">⚛️ Nuclear Power</span>
+                    <span class="story-meta metadata-label">August 13, 2026 &bull; 2 min Read</span>
+                </div>
+                <h3 class="story-title article-title"><a href="https://www.power-technology.com/news/nextera-explores-smr-nuclear-power-for-ai-data-centers/">NextEra Energy Explores SMR Deployment for Off-Grid AI Clusters</a></h3>
+                <p class="story-summary body-summary">NextEra Energy announced a feasibility study to deploy Small Modular Reactors (SMRs) directly at new off-grid data center sites. Unlike traditional gigawatt-scale reactors, these SMRs (typically 50-300 megawatts) can be factory-fabricated and assembled on-site, offering a scalable and clean power source for deep learning clusters. Although commercial deployment is not expected before 2031 due to licensing and fuel supply bottlenecks, developers see SMRs as the long-term solution to the AI power crisis.</p>
+                <a class="story-link metadata-label" href="https://www.power-technology.com/news/nextera-explores-smr-nuclear-power-for-ai-data-centers/">Read Source <span class="material-symbols-outlined material-icon-inline">arrow_forward</span></a>
+            </article>
+
+            <article class="story-card">
+                <div class="story-header">
+                    <span class="story-category story-category-policy metadata-label">⚖️ Regulation &amp; Policy</span>
+                    <span class="story-meta metadata-label">August 12, 2026 &bull; 2 min Read</span>
+                </div>
+                <h3 class="story-title article-title"><a href="https://www.reuters.com/business/energy/ferc-rejects-talen-nuclear-co-location-amazon-data-center/">FERC Rejects Talen Energy's Susquehanna Co-Location Expansion Request</a></h3>
+                <p class="story-summary body-summary">In a setback for behind-the-meter nuclear projects, FERC rejected Talen Energy’s request to increase co-located power capacity at its Susquehanna nuclear plant for an adjacent Amazon Web Services data center. The commission ruled that shifting more capacity from the public grid to a private customer could raise electricity rates for residential consumers and compromise regional grid reliability. The ruling underscores the regulatory hurdles tech companies face when trying to monopolize existing clean energy resources for AI workloads.</p>
+                <a class="story-link metadata-label" href="https://www.reuters.com/business/energy/ferc-rejects-talen-nuclear-co-location-amazon-data-center/">Read Source <span class="material-symbols-outlined material-icon-inline">arrow_forward</span></a>
+            </article>
+
+            <article class="story-card">
+                <div class="story-header">
+                    <span class="story-category story-category-market metadata-label">📈 Market Shifts</span>
+                    <span class="story-meta metadata-label">August 11, 2026 &bull; 2 min Read</span>
+                </div>
+                <h3 class="story-title article-title"><a href="https://www.bloomberg.com/news/articles/2026-08-11/pjm-capacity-prices-jump-800-percent-data-centers/">PJM Capacity Auction Prices Skyrocket 800% on Data Center Demand Spikes</a></h3>
+                <p class="story-summary body-summary">The latest PJM capacity auction recorded clearing prices that are 800% higher than the previous year, jumping from $28.92 to $269.92 per megawatt-day. Analysts attribute the surge to a combination of power plant retirements and massive projected demand increases from AI data centers across the Mid-Atlantic. The price spike will significantly increase operating costs for industrial users and utility rates for residential consumers, triggering calls for federal intervention and faster interconnection approvals.</p>
+                <a class="story-link metadata-label" href="https://www.bloomberg.com/news/articles/2026-08-11/pjm-capacity-prices-jump-800-percent-data-centers/">Read Source <span class="material-symbols-outlined material-icon-inline">arrow_forward</span></a>
+            </article>
+
+            <article class="story-card">
+                <div class="story-header">
+                    <span class="story-category story-category-clean metadata-label">🍃 Clean Tech</span>
+                    <span class="story-meta metadata-label">August 10, 2026 &bull; 2 min Read</span>
+                </div>
+                <h3 class="story-title article-title"><a href="https://www.canarymedia.com/articles/geothermal/google-fervo-energy-geothermal-nevada-data-center/">Google Partners with Fervo Energy for 115MW Geothermal Project in Nevada</a></h3>
+                <p class="story-summary body-summary">Google has expanded its clean energy portfolio by signing a power purchase agreement with Fervo Energy for 115 megawatts of enhanced geothermal power in Nevada. Fervo’s horizontal drilling technology harvests heat from deep underground to produce continuous, carbon-free electricity that matches the round-the-clock operating profile of AI computing. Unlike solar or wind, geothermal energy provides baseline power, making it a highly attractive resource for tech giants aiming to eliminate fossil fuels from their supply chains.</p>
+                <a class="story-link metadata-label" href="https://www.canarymedia.com/articles/geothermal/google-fervo-energy-geothermal-nevada-data-center/">Read Source <span class="material-symbols-outlined material-icon-inline">arrow_forward</span></a>
+            </article>
+
+            <!-- STORIES_PLACEHOLDER -->
+        </section>
+
+        <footer class="feed-subscription-footer">
+            <p class="body-summary feed-subscription-text">Did someone forward you this? Get the weekly 5-minute briefing on the energy infrastructure powering the AI revolution direct to your inbox.</p>
+            <div class="subscription-container">
+                <form class="subscription-form" id="footer-subscribe-form">
+                    <input class="email-input" id="footer-email-input" type="email" placeholder="Enter your work email" required>
+                    <button class="btn submit-btn" id="footer-submit-btn" type="submit">Subscribe</button>
+                </form>
+                <div class="status-message" id="footer-status-message"></div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Footer Area -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-info">
+                <span class="footer-logo article-title"><span class="material-symbols-outlined">bolt</span>MegawattWeekly</span>
+                <p class="footer-copyright metadata-label">&copy; 2026 MegawattWeekly. All rights reserved.</p>
+            </div>
+            <nav class="footer-nav">
+                <a class="footer-link metadata-label" href="https://buttondown.com/megawattweekly/archive/" target="_blank" rel="noopener">Archives</a>
+                <a class="footer-link metadata-label" href="privacy.html">Privacy Policy</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const header = document.getElementById('site-header');
+            const headerSubscribeBtn = document.getElementById('header-subscribe-btn');
+            const heroForm = document.getElementById('subscribe-form');
+            const heroEmailInput = document.getElementById('email-input');
+
+            // Header Scroll Interaction
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 20) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+            });
+
+            // Smooth Scroll from Navigation Subscribe to Form
+            if (headerSubscribeBtn) {
+                headerSubscribeBtn.addEventListener('click', () => {
+                    if (heroForm) {
+                        heroForm.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                        heroEmailInput.focus();
+                    }
+                });
+            }
+
+            // Multiple subscription forms configuration
+            const subscribeForms = [
+                {
+                    form: document.getElementById('subscribe-form'),
+                    input: document.getElementById('email-input'),
+                    button: document.getElementById('submit-btn'),
+                    status: document.getElementById('status-message')
+                },
+                {
+                    form: document.getElementById('footer-subscribe-form'),
+                    input: document.getElementById('footer-email-input'),
+                    button: document.getElementById('footer-submit-btn'),
+                    status: document.getElementById('footer-status-message')
+                }
+            ];
+
+            subscribeForms.forEach(({ form, input, button, status }) => {
+                if (!form) return;
+
+                form.addEventListener('submit', async (e) => {
+                    e.preventDefault();
+
+                    const email = input.value.trim();
+                    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+                    if (!emailRegex.test(email)) {
+                        showStatus(status, 'Please enter a valid email address.', 'error');
+                        return;
+                    }
+
+                    // Set loading state
+                    button.disabled = true;
+                    button.innerText = 'Subscribing...';
+                    hideStatus(status);
+
+                    try {
+                        const response = await fetch('/api/subscribe', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                            body: JSON.stringify({ email: email })
+                        });
+
+                        if (response.ok) {
+                            // Hide the form and show success banner
+                            form.style.display = 'none';
+                            showStatus(status, 'Welcome to the briefing! Check your inbox to confirm.', 'success');
+                        } else {
+                            const errData = await response.json().catch(() => ({}));
+                            throw new Error(errData.error || 'Subscription API returned error');
+                        }
+                    } catch (error) {
+                        console.error('Subscription error:', error);
+                        showStatus(status, 'Something went wrong. Please try again later.', 'error');
+                        button.disabled = false;
+                        button.innerText = 'Subscribe';
+                    }
+                });
+            });
+
+            function showStatus(statusElement, text, type) {
+                if (statusElement) {
+                    statusElement.innerHTML = `<span class="material-symbols-outlined" style="margin-right: 8px;">${type === 'success' ? 'check_circle' : 'error'}</span>${text}`;
+                    statusElement.className = `status-message ${type}`;
+                    statusElement.style.display = 'flex';
+                }
+            }
+
+            function hideStatus(statusElement) {
+                if (statusElement) {
+                    statusElement.style.display = 'none';
+                    statusElement.className = 'status-message';
+                }
+            }
+        });
+    </script>
+</body>
+
+<!--
+BLUEPRINT: SINGLE ARTICLE CARD FOR SSG INGESTION
+
+<article class="story-card">
+    <div class="story-header">
+        <span class="story-category story-category-{category_slug} metadata-label">{Category_Name}</span>
+        <span class="story-meta metadata-label">{Date} &bull; {Read_Time} Read</span>
+    </div>
+    <h3 class="story-title article-title"><a href="{Link}">{Title}</a></h3>
+    <p class="story-summary body-summary">{Summary}</p>
+    <a class="story-link metadata-label" href="{Link}">Read Source <span class="material-symbols-outlined material-icon-inline">arrow_forward</span></a>
+</article>
+-->
+
+</html>
