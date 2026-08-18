@@ -51,8 +51,7 @@ async function handleSubscribe(request, env) {
                 email_address: email,
                 metadata: {
                     source: "megawattweekly_website"
-                },
-                tags: ["website"]
+                }
             })
         });
 
