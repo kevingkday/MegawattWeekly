@@ -1,66 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>MegawattWeekly Briefing</title>
-    <link>https://kevingkday.github.io/MegawattWeekly</link>
-    <description>Weekly power industry insights and grid capacity briefings for AI data center infrastructure.</description>
+    <title>Metawatt Weekly</title>
+    <link>https://megawattweekly.com</link>
+    <description>Latest stories from Metawatt Weekly</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Aug 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 14:51:48 GMT</lastBuildDate>
+    <item>
+      <title>AI Price War Reshapes Data Centre Demand, Capacity Deals</title>
+      <link>https://megawattweekly.com</link>
+      <guid isPermaLink="false">https://megawattweekly.com#2153-20260818042524</guid>
+      <pubDate>Tue, 18 Aug 2026 11:25:24 GMT</pubDate>
+      <description>OpenAI and Anthropic cut model prices, including OpenAI lowering GPT-5.6 Luna API pricing by 80% to $0.20 per million input tokens and $1.20 per million output tokens and Anthropic pricing Claude Opus 5 at about half the cost of its prior flagship, in response to Chinese rivals such as DeepSeek, Moonshot’s Kimi, and Zhipu’s GLM undercutting Western models by up to nine times. The pricing shift changes how AI workloads are served by pushing more inference volume through GPU-dense data centre infrastructure, with capacity demand, usage-based billing, and flexibility in power and cooling becoming central to the operating model. It matters because US hyperscale and colocation operators, plus data centre markets in the Gulf, Southeast Asia, and parts of Europe, may see higher demand for GPU capacity or lose workloads to Chinese-hosted and open-weight alternatives, affecting long-term leases, PPAs, and build-to-suit deals.</description>
+    </item>
     <item>
       <title>PJM Substation Backlog Reaches Critical Impasse for Northern Virginia Data Centers</title>
       <link>https://kevingkday.github.io/MegawattWeekly</link>
       <guid isPermaLink="false">https://kevingkday.github.io/MegawattWeekly#85-20260817120000</guid>
       <pubDate>Mon, 17 Aug 2026 12:00:00 GMT</pubDate>
-      <description>Northern Virginia’s data center developers are facing connection delays of up to seven years as the PJM Interconnection queue grapples with an unprecedented volume of requests. Grid operators warn that the transmission infrastructure requires billions of dollars in upgrades to handle the projected 10-gigawatt surge from hyperscale AI facilities. The delays are forcing tech companies to search for alternative sites in secondary markets like Ohio and Indiana, where utility queues are shorter but local grid capacities are still limited.</description>
-    </item>
+      <description>Northern Virginia’s data center developers are facing connection delays of up to seven years as the PJM Interconnection queue grapples with an unprecedented volume of requests. Grid operators warn that the transmission infrastructure requires billions of dollars in upgrades to handle the projected 10-gigawatt surge from hyperscale AI facilities. The delays are forcing tech companies to search for alternative sites in secondary markets like Ohio and Indiana, where utility queues are shorter but local grid capacities are still limited.</description></item>
     <item>
       <title>Constellation Energy Secures FERC Approval for Nuclear Co-Location at Three Mile Island</title>
       <link>https://kevingkday.github.io/MegawattWeekly</link>
       <guid isPermaLink="false">https://kevingkday.github.io/MegawattWeekly#84-20260816120000</guid>
       <pubDate>Sun, 16 Aug 2026 12:00:00 GMT</pubDate>
-      <description>The Federal Energy Regulatory Commission (FERC) has approved a landmark co-location agreement between Constellation Energy and Microsoft to supply 835 megawatts of clean energy directly from the restarted Three Mile Island Unit 1 reactor. This contract represents the first dedicated behind-the-meter nuclear project specifically built to power an adjacent AI data center campus. The decision sets a major legal precedent, overriding utility protests regarding transmission tariff exemptions and paving the way for other hyperscalers to pursue similar dedicated nuclear deals across the US.</description>
-    </item>
+      <description>The Federal Energy Regulatory Commission (FERC) has approved a landmark co-location agreement between Constellation Energy and Microsoft to supply 835 megawatts of clean energy directly from the restarted Three Mile Island Unit 1 reactor. This contract represents the first dedicated behind-the-meter nuclear project specifically built to power an adjacent AI data center campus. The decision sets a major legal precedent, overriding utility protests regarding transmission tariff exemptions and paving the way for other hyperscalers to pursue similar dedicated nuclear deals across the US.</description></item>
     <item>
       <title>Hyperscalers Turn to On-Site Natural Gas Microturbines to Bypass Grid Constraints</title>
       <link>https://kevingkday.github.io/MegawattWeekly</link>
       <guid isPermaLink="false">https://kevingkday.github.io/MegawattWeekly#83-20260815120000</guid>
       <pubDate>Sat, 15 Aug 2026 12:00:00 GMT</pubDate>
-      <description>To meet the immediate energy needs of modern Blackwell and Rubin AI clusters, major tech companies are bypassing utility grid connections by deploying on-site natural gas microturbines. Companies like Google and AWS are partnering with energy developers to build private 100-megawatt gas generation systems directly adjacent to their data center campuses, utilizing localized pipelines. While this strategy offers rapid deployment, it draws criticism from environmental groups and complicates corporate carbon-neutrality pledges, highlighting the tension between rapid AI scaling and green energy goals.</description>
-    </item>
+      <description>To meet the immediate energy needs of modern Blackwell and Rubin AI clusters, major tech companies are bypassing utility grid connections by deploying on-site natural gas microturbines. Companies like Google and AWS are partnering with energy developers to build private 100-megawatt gas generation systems directly adjacent to their data center campuses, utilizing localized pipelines. While this strategy offers rapid deployment, it draws criticism from environmental groups and complicates corporate carbon-neutrality pledges, highlighting the tension between rapid AI scaling and green energy goals.</description></item>
     <item>
       <title>Dominion Energy Warns AI Power Demand Will Require Two New Gas Plants in Virginia</title>
       <link>https://kevingkday.github.io/MegawattWeekly</link>
       <guid isPermaLink="false">https://kevingkday.github.io/MegawattWeekly#82-20260814120000</guid>
       <pubDate>Fri, 14 Aug 2026 12:00:00 GMT</pubDate>
-      <description>Dominion Energy has updated its long-term integrated resource plan, stating that the exponential rise in AI data center demand will necessitate the construction of two new natural gas-fired peaking plants in Virginia by 2029. The utility noted that while solar and battery storage capacity is expanding, fossil-fuel-powered generation remains essential to guarantee the 99.999% uptime required by hyperscale computing facilities. Regulatory bodies are reviewing the proposal amid intense debate over the state's transition to clean energy.</description>
-    </item>
+      <description>Dominion Energy has updated its long-term integrated resource plan, stating that the exponential rise in AI data center demand will necessitate the construction of two new natural gas-fired peaking plants in Virginia by 2029. The utility noted that while solar and battery storage capacity is expanding, fossil-fuel-powered generation remains essential to guarantee the 99.999% uptime required by hyperscale computing facilities. Regulatory bodies are reviewing the proposal amid intense debate over the state's transition to clean energy.</description></item>
     <item>
       <title>NextEra Energy Explores SMR Deployment for Off-Grid AI Clusters</title>
       <link>https://kevingkday.github.io/MegawattWeekly</link>
       <guid isPermaLink="false">https://kevingkday.github.io/MegawattWeekly#81-20260813120000</guid>
       <pubDate>Thu, 13 Aug 2026 12:00:00 GMT</pubDate>
-      <description>NextEra Energy announced a feasibility study to deploy Small Modular Reactors (SMRs) directly at new off-grid data center sites. Unlike traditional gigawatt-scale reactors, these SMRs (typically 50-300 megawatts) can be factory-fabricated and assembled on-site, offering a scalable and clean power source for deep learning clusters. Although commercial deployment is not expected before 2031 due to licensing and fuel supply bottlenecks, developers see SMRs as the long-term solution to the AI power crisis.</description>
-    </item>
+      <description>NextEra Energy announced a feasibility study to deploy Small Modular Reactors (SMRs) directly at new off-grid data center sites. Unlike traditional gigawatt-scale reactors, these SMRs (typically 50-300 megawatts) can be factory-fabricated and assembled on-site, offering a scalable and clean power source for deep learning clusters. Although commercial deployment is not expected before 2031 due to licensing and fuel supply bottlenecks, developers see SMRs as the long-term solution to the AI power crisis.</description></item>
     <item>
       <title>FERC Rejects Talen Energy's Susquehanna Co-Location Expansion Request</title>
       <link>https://kevingkday.github.io/MegawattWeekly</link>
       <guid isPermaLink="false">https://kevingkday.github.io/MegawattWeekly#80-20260812120000</guid>
       <pubDate>Wed, 12 Aug 2026 12:00:00 GMT</pubDate>
-      <description>In a setback for behind-the-meter nuclear projects, FERC rejected Talen Energy’s request to increase co-located power capacity at its Susquehanna nuclear plant for an adjacent Amazon Web Services data center. The commission ruled that shifting more capacity from the public grid to a private customer could raise electricity rates for residential consumers and compromise regional grid reliability. The ruling underscores the regulatory hurdles tech companies face when trying to monopolize existing clean energy resources for AI workloads.</description>
-    </item>
+      <description>In a setback for behind-the-meter nuclear projects, FERC rejected Talen Energy’s request to increase co-located power capacity at its Susquehanna nuclear plant for an adjacent Amazon Web Services data center. The commission ruled that shifting more capacity from the public grid to a private customer could raise electricity rates for residential consumers and compromise regional grid reliability. The ruling underscores the regulatory hurdles tech companies face when trying to monopolize existing clean energy resources for AI workloads.</description></item>
     <item>
       <title>PJM Capacity Auction Prices Skyrocket 800% on Data Center Demand Spikes</title>
       <link>https://kevingkday.github.io/MegawattWeekly</link>
       <guid isPermaLink="false">https://kevingkday.github.io/MegawattWeekly#79-20260811120000</guid>
       <pubDate>Tue, 11 Aug 2026 12:00:00 GMT</pubDate>
-      <description>The latest PJM capacity auction recorded clearing prices that are 800% higher than the previous year, jumping from $28.92 to $269.92 per megawatt-day. Analysts attribute the surge to a combination of power plant retirements and massive projected demand increases from AI data centers across the Mid-Atlantic. The price spike will significantly increase operating costs for industrial users and utility rates for residential consumers, triggering calls for federal intervention and faster interconnection approvals.</description>
-    </item>
+      <description>The latest PJM capacity auction recorded clearing prices that are 800% higher than the previous year, jumping from $28.92 to $269.92 per megawatt-day. Analysts attribute the surge to a combination of power plant retirements and massive projected demand increases from AI data centers across the Mid-Atlantic. The price spike will significantly increase operating costs for industrial users and utility rates for residential consumers, triggering calls for federal intervention and faster interconnection approvals.</description></item>
     <item>
       <title>Google Partners with Fervo Energy for 115MW Geothermal Project in Nevada</title>
       <link>https://kevingkday.github.io/MegawattWeekly</link>
       <guid isPermaLink="false">https://kevingkday.github.io/MegawattWeekly#78-20260810120000</guid>
       <pubDate>Mon, 10 Aug 2026 12:00:00 GMT</pubDate>
-      <description>Google has expanded its clean energy portfolio by signing a power purchase agreement with Fervo Energy for 115 megawatts of enhanced geothermal power in Nevada. Fervo’s horizontal drilling technology harvests heat from deep underground to produce continuous, carbon-free electricity that matches the round-the-clock operating profile of AI computing. Unlike solar or wind, geothermal energy provides baseline power, making it a highly attractive resource for tech giants aiming to eliminate fossil fuels from their supply chains.</description>
-    </item>
+      <description>Google has expanded its clean energy portfolio by signing a power purchase agreement with Fervo Energy for 115 megawatts of enhanced geothermal power in Nevada. Fervo’s horizontal drilling technology harvests heat from deep underground to produce continuous, carbon-free electricity that matches the round-the-clock operating profile of AI computing. Unlike solar or wind, geothermal energy provides baseline power, making it a highly attractive resource for tech giants aiming to eliminate fossil fuels from their supply chains.</description></item>
   </channel>
 </rss>
