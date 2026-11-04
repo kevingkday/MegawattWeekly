@@ -5,7 +5,35 @@
     <link>https://megawattweekly.com</link>
     <description>Latest stories from Metawatt Weekly</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Aug 2026 14:51:48 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 19:49:00 GMT</lastBuildDate>
+    <item>
+      <title>BC Hydro&apos;s Data Centre Power Picks Are Still Pending, and the Okanagan Is Shut Out</title>
+      <link>https://infonews.ca/news/7965937/bc-hydro-to-announce-new-ai-data-centres-dont-expect-any-in-the-okanagan/</link>
+      <guid isPermaLink="false">https://megawattweekly.com#20261104194900-1</guid>
+      <pubDate>Thu, 29 Oct 2026 01:00:00 GMT</pubDate>
+      <description>BC Hydro has not said which of roughly 800 MW of data centre applications will share its 400 MW allocation. Results expected in September were postponed by the provincial election. FortisBC service areas, including much of the Okanagan, are excluded, and FortisBC is nearing capacity there. Sub-10 MW brownfield sites can connect through standard interconnection instead of the rationed call for loads of 10 MW or more.</description>
+    </item>
+    <item>
+      <title>Memphis Splits 6–6 on a Data Centre Moratorium, Then Bans Evaporative Cooling</title>
+      <link>https://www.wsmv.com/2026/10/21/memphis-city-council-declines-pass-data-center-moratorium/</link>
+      <guid isPermaLink="false">https://megawattweekly.com#20261104194900-2</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <description>A proposed 12-month data centre moratorium failed on a 6–6 vote of Memphis City Council. The council then passed an ordinance banning routine evaporative and once-through cooling at large data centres. It requires closed-loop water and bars major withdrawals of local water for cooling. Closed-loop or air-cooled sub-10 MW MicroClusters on brownfield land already meet that standard.</description>
+    </item>
+    <item>
+      <title>Ottawa&apos;s $890M Sovereign AI Supercomputer Is Still Unawarded as Budget 2026 Nears</title>
+      <link>https://www.signal49.ca/insights/ai-on-the-horizon-october-2026/</link>
+      <guid isPermaLink="false">https://megawattweekly.com#20261104194900-3</guid>
+      <pubDate>Fri, 30 Oct 2026 13:20:20 GMT</pubDate>
+      <description>Canada&apos;s $890 million public AI supercomputer has no announced award five months after applications closed on June 1. Signal49 Research notes that 7 of 8 cloud vendors approved for federal use are American. The AI Compute Access Fund pays 67 cents on the dollar for Canadian compute versus 50 cents for foreign compute, and Budget 2026 lands Nov. 5. On-premises MicroNode systems offer sovereign inference in B.C. without waiting for a megaproject.</description>
+    </item>
+    <item>
+      <title>Aon Sees $100B+ in New Data Centre Premiums, but Risk Accumulation Is the Real Struggle</title>
+      <link>https://www.businessinsurance.com/data-center-boom-brings-premium-growth-aggregation-risks/</link>
+      <guid isPermaLink="false">https://megawattweekly.com#20261104194900-4</guid>
+      <pubDate>Wed, 07 Oct 2026 21:53:35 GMT</pubDate>
+      <description>Aon&apos;s Ryan Barber expects data centres to generate more than $100 billion in new insurance premiums over the next five to 10 years. He said placements above $10 billion are likely possible now. The biggest struggle for insurers is tracking risk as it accumulates at phased campuses. Distributed sub-10 MW sites avoid that concentration, backed by an AI Infrastructure Captive Program.</description>
+    </item>
     <item>
       <title>AI Price War Reshapes Data Centre Demand, Capacity Deals</title>
       <link>https://megawattweekly.com</link>
