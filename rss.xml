@@ -5,7 +5,35 @@
     <link>https://megawattweekly.com</link>
     <description>Latest stories from Metawatt Weekly</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Nov 2026 19:49:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 16:06:14 GMT</lastBuildDate>
+    <item>
+      <title>Alberta Data Centres Have Asked for 26,849 MW, More Than Double the Province’s Record Peak</title>
+      <link>https://thecircuit.ca/posts/2026-11-03-ai-data-centres-who-pays-power/</link>
+      <guid isPermaLink="false">https://megawattweekly.com#20261108160614-1</guid>
+      <pubDate>Sun, 08 Nov 2026 16:06:14 GMT</pubDate>
+      <description>Data centre developers had asked to connect 26,849 MW of new load to Alberta’s grid by October, more than double the province’s record peak of 12,785 MW. AESO’s entire 1,200 MW interim limit went to just two projects, a 970 MW allocation matching Meta’s Sturgeon County campus and 230 MW for a Keephills data centre. The Circuit finds Alberta, Quebec, Ontario and B.C. all rationing or repricing data centre power, with B.C. capping new data centre supply at 400 MW over two years. Sub-10 MW brownfield sites stay outside B.C.’s competitive call and connect through BC Hydro’s standard process.</description>
+    </item>
+    <item>
+      <title>Sherbrooke Delays a Data Centre Freeze as 12,000 Sign Against a 96 MW Campus</title>
+      <link>https://www.cbc.ca/news/canada/montreal/data-centre-moratorium-sherbrooke-que-9.7408805</link>
+      <guid isPermaLink="false">https://megawattweekly.com#20261108160614-2</guid>
+      <pubDate>Sun, 08 Nov 2026 16:06:14 GMT</pubDate>
+      <description>Sherbrooke Mayor Marie-Claude Bibeau kept a proposed data centre moratorium off Tuesday’s council agenda, saying the city needs more time to weigh its legal and technical impacts. Residents are fighting a 96 MW project by U.S.-backed Keel Infrastructure on land the city conditionally sold in August. A petition against the sale has collected more than 12,000 signatures, and two more crypto-to-AI conversions are in the works in the city. Smaller sites on already-zoned brownfield land avoid the scale that drives this kind of opposition.</description>
+    </item>
+    <item>
+      <title>Budget 2026 Promises Canadian AI Firms 500 MW of Sovereign Compute, With No Sites or Timeline Yet</title>
+      <link>https://datacentre.ca/2026/11/07/budget-2026-targets-sovereign-ai-compute/</link>
+      <guid isPermaLink="false">https://megawattweekly.com#20261108160614-3</guid>
+      <pubDate>Sun, 08 Nov 2026 16:06:14 GMT</pubDate>
+      <description>Budget 2026 commits Ottawa to help Canadian AI companies access 500 MW of sovereign computing capacity through backstops and offtake agreements. The government says large tech firms are locking up new Canadian capacity with long-term contracts, leaving domestic businesses short of compute at home. DataCentre.ca notes the measure does not identify participating facilities, a delivery schedule, or the value of the support, while the budget also proposes $6 billion over six years from 2028–29 for emerging generation technologies. On-premise sovereign inference nodes in B.C. can serve Canadian organizations before those program rules arrive.</description>
+    </item>
+    <item>
+      <title>SCOR’s CEO: Insurers Can Assemble About US$15B per Risk, but AI Campuses Now Carry up to US$50B</title>
+      <link>https://reinasia.com/ai-and-data-centre-exposure-outpacing-industry-pricing-capability-says-scor-chief/</link>
+      <guid isPermaLink="false">https://megawattweekly.com#20261108160614-4</guid>
+      <pubDate>Sun, 08 Nov 2026 16:06:14 GMT</pubDate>
+      <description>SCOR group CEO Thierry Léger told the Singapore International Reinsurance Conference on November 2 that the industry can assemble only around US$15 billion of capacity per risk. A Howden report estimates single hyperscale AI campuses can now carry insurable values of up to US$50 billion, more than any one insurer can absorb. Léger warned that AI and data centre exposures are growing faster than reinsurers can build the capability to price them. Distributed sub-10 MW sites stay well inside what the market can absorb, and captives can cover the AI risks traditional insurers won’t take.</description>
+    </item>
     <item>
       <title>BC Hydro&apos;s Data Centre Power Picks Are Still Pending, and the Okanagan Is Shut Out</title>
       <link>https://infonews.ca/news/7965937/bc-hydro-to-announce-new-ai-data-centres-dont-expect-any-in-the-okanagan/</link>
