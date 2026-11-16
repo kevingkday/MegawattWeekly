@@ -32,7 +32,7 @@
       <link>https://reinasia.com/swiss-re-turning-to-alternative-capital-as-data-center-accumulation-outrun-reinsurance-capacity/</link>
       <guid isPermaLink="false">https://megawattweekly.com#20261115162917-4</guid>
       <pubDate>Sun, 15 Nov 2026 16:29:17 GMT</pubDate>
-      <description>Swiss Re P&amp;C reinsurance chief underwriting officer Gianfranco Lot told the Singapore International Reinsurance Conference on November 4 that there is not enough insurance capacity for data centres, leaving owners unable to place the limits their debt financing requires. Tens of billions in values can sit on a single site, and 90 to 95% of that risk is passed on to reinsurers. Lot noted data centres take about 2.5 years to build, versus 15 to 20 for a nuclear plant, and said Swiss Re is talking to alternative capital providers to cover peak loss scenarios. Smaller, distributed sites avoid the single-site accumulation that is outrunning the market.</description>
+      <description>Swiss Re P&C reinsurance chief underwriting officer Gianfranco Lot told the Singapore International Reinsurance Conference on November 4 that there is not enough insurance capacity for data centres, leaving owners unable to place the limits their debt financing requires. Tens of billions in values can sit on a single site, and 90 to 95% of that risk is passed on to reinsurers. Lot noted data centres take about 2.5 years to build, versus 15 to 20 for a nuclear plant, and said Swiss Re is talking to alternative capital providers to cover peak loss scenarios. Smaller, distributed sites avoid the single-site accumulation that is outrunning the market.</description>
     </item>
     <item>
       <title>Alberta Data Centres Have Asked for 26,849 MW, More Than Double the Province’s Record Peak</title>
@@ -63,7 +63,7 @@
       <description>SCOR group CEO Thierry Léger told the Singapore International Reinsurance Conference on November 2 that the industry can assemble only around US$15 billion of capacity per risk. A Howden report estimates single hyperscale AI campuses can now carry insurable values of up to US$50 billion, more than any one insurer can absorb. Léger warned that AI and data centre exposures are growing faster than reinsurers can build the capability to price them. Distributed sub-10 MW sites stay well inside what the market can absorb, and captives can cover the AI risks traditional insurers won’t take.</description>
     </item>
     <item>
-      <title>BC Hydro&apos;s Data Centre Power Picks Are Still Pending, and the Okanagan Is Shut Out</title>
+      <title>BC Hydro's Data Centre Power Picks Are Still Pending, and the Okanagan Is Shut Out</title>
       <link>https://infonews.ca/news/7965937/bc-hydro-to-announce-new-ai-data-centres-dont-expect-any-in-the-okanagan/</link>
       <guid isPermaLink="false">https://megawattweekly.com#20261104194900-1</guid>
       <pubDate>Thu, 29 Oct 2026 01:00:00 GMT</pubDate>
@@ -77,18 +77,18 @@
       <description>A proposed 12-month data centre moratorium failed on a 6–6 vote of Memphis City Council. The council then passed an ordinance banning routine evaporative and once-through cooling at large data centres. It requires closed-loop water and bars major withdrawals of local water for cooling. Closed-loop or air-cooled sub-10 MW MicroClusters on brownfield land already meet that standard.</description>
     </item>
     <item>
-      <title>Ottawa&apos;s $890M Sovereign AI Supercomputer Is Still Unawarded as Budget 2026 Nears</title>
+      <title>Ottawa's $890M Sovereign AI Supercomputer Is Still Unawarded as Budget 2026 Nears</title>
       <link>https://www.signal49.ca/insights/ai-on-the-horizon-october-2026/</link>
       <guid isPermaLink="false">https://megawattweekly.com#20261104194900-3</guid>
       <pubDate>Fri, 30 Oct 2026 13:20:20 GMT</pubDate>
-      <description>Canada&apos;s $890 million public AI supercomputer has no announced award five months after applications closed on June 1. Signal49 Research notes that 7 of 8 cloud vendors approved for federal use are American. The AI Compute Access Fund pays 67 cents on the dollar for Canadian compute versus 50 cents for foreign compute, and Budget 2026 lands Nov. 5. On-premises MicroNode systems offer sovereign inference in B.C. without waiting for a megaproject.</description>
+      <description>Canada's $890 million public AI supercomputer has no announced award five months after applications closed on June 1. Signal49 Research notes that 7 of 8 cloud vendors approved for federal use are American. The AI Compute Access Fund pays 67 cents on the dollar for Canadian compute versus 50 cents for foreign compute, and Budget 2026 lands Nov. 5. On-premises MicroNode systems offer sovereign inference in B.C. without waiting for a megaproject.</description>
     </item>
     <item>
       <title>Aon Sees $100B+ in New Data Centre Premiums, but Risk Accumulation Is the Real Struggle</title>
       <link>https://www.businessinsurance.com/data-center-boom-brings-premium-growth-aggregation-risks/</link>
       <guid isPermaLink="false">https://megawattweekly.com#20261104194900-4</guid>
       <pubDate>Wed, 07 Oct 2026 21:53:35 GMT</pubDate>
-      <description>Aon&apos;s Ryan Barber expects data centres to generate more than $100 billion in new insurance premiums over the next five to 10 years. He said placements above $10 billion are likely possible now. The biggest struggle for insurers is tracking risk as it accumulates at phased campuses. Distributed sub-10 MW sites avoid that concentration, backed by an AI Infrastructure Captive Program.</description>
+      <description>Aon's Ryan Barber expects data centres to generate more than $100 billion in new insurance premiums over the next five to 10 years. He said placements above $10 billion are likely possible now. The biggest struggle for insurers is tracking risk as it accumulates at phased campuses. Distributed sub-10 MW sites avoid that concentration, backed by an AI Infrastructure Captive Program.</description>
     </item>
     <item>
       <title>AI Price War Reshapes Data Centre Demand, Capacity Deals</title>
@@ -139,11 +139,5 @@
       <guid isPermaLink="false">https://kevingkday.github.io/MegawattWeekly#79-20260811120000</guid>
       <pubDate>Tue, 11 Aug 2026 12:00:00 GMT</pubDate>
       <description>The latest PJM capacity auction recorded clearing prices that are 800% higher than the previous year, jumping from $28.92 to $269.92 per megawatt-day. Analysts attribute the surge to a combination of power plant retirements and massive projected demand increases from AI data centers across the Mid-Atlantic. The price spike will significantly increase operating costs for industrial users and utility rates for residential consumers, triggering calls for federal intervention and faster interconnection approvals.</description></item>
-    <item>
-      <title>Google Partners with Fervo Energy for 115MW Geothermal Project in Nevada</title>
-      <link>https://kevingkday.github.io/MegawattWeekly</link>
-      <guid isPermaLink="false">https://kevingkday.github.io/MegawattWeekly#78-20260810120000</guid>
-      <pubDate>Mon, 10 Aug 2026 12:00:00 GMT</pubDate>
-      <description>Google has expanded its clean energy portfolio by signing a power purchase agreement with Fervo Energy for 115 megawatts of enhanced geothermal power in Nevada. Fervo’s horizontal drilling technology harvests heat from deep underground to produce continuous, carbon-free electricity that matches the round-the-clock operating profile of AI computing. Unlike solar or wind, geothermal energy provides baseline power, making it a highly attractive resource for tech giants aiming to eliminate fossil fuels from their supply chains.</description></item>
   </channel>
 </rss>
